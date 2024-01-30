@@ -1,0 +1,131 @@
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2fa1ff;
+    
+}
+
+.titulo1{
+    color: #2d5168; 
+    top: 50%;
+    font-size: 40px;
+    margin-left: 10px;
+    
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+    position: relative;
+}
+.ini{
+    width: 120px;
+    color: #2d5168;
+    text-align: center;
+    padding: 15px 5px;
+    font-weight: bold;
+    margin-right: 20px;
+    box-shadow: 1px 1px 2px #a1a1a1;
+}
+
+.ini:hover{
+    background-color: #2fa1ff;
+    transition: background-color 1s ease;
+    transform: scale(1.1);
+}
+.reg{
+    width: 120px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 5px;
+    box-shadow: 1px 1px 2px #a1a1a1;
+}
+.reg:hover{
+    background-color: #2fa1ff;
+    transition: background-color .5s ease;
+    transform: scale(1.1) ;
+}
+
+li a {
+    text-decoration: none;
+    color: #2d5168;
+}
+li a:hover {
+    transition: color .6s ease;
+    color: #fff;
+    
+}
+
+.head2{
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+    align-items: center;
+    box-shadow: 1px 1px 5px #353535;
+    animation-name: headani;
+    animation-duration: 1s;
+    animation-delay: 0.5;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+.container {
+    width: 93%;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 40px;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 1px 1px 5px #353535;
+    animation-name: aparicion;
+    animation-duration: 1s;
+    animation-delay: 0.5;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    display: flex;
+
+}
+.minicon{
+    width: 20%;
+    height: 400px;
+    box-shadow: 1px 1px 3px #a1a1a1;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.minicon2{
+    box-shadow: 1px 1px 3px #a1a1a1;
+    border-radius: 10px;
+    width: 80%;
+    padding: 5px;
+}
+
+@keyframes aparicion{
+    0%{
+        opacity: 0;
+        transform: scale(2) translateY(75px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: scale(1); translateY(0);
+    }
+}
+@keyframes headani{
+    0%{
+        opacity: 0;
+        transform: scale(2) translateY(-75px);
+    }
+    100% 
+    {
+        opacity: 1;
+        transform: scale(1); translateY(0):;
+    }        
+}
